@@ -1,0 +1,107 @@
+/* ========================================> Author */
+/* Author : Dope Karibbean
+    Date : 16.05.2023
+    Version : 1.0
+*/
+
+
+/* ========================================> Typography */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* ========================================> Reset CSS */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ========================================> Custom CSS Variables */
+:root {
+    /* Primary colors */
+    --primary-soft-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    /* Neutral colors */
+    --neutral-background-dark-blue: hsl(217, 54%, 11%);
+    --neutral-card-background-dark-blue: hsl(216, 50%, 16%);
+    --neutral-line-dark-blue: hsl(215, 32%, 27%);
+    --neutral-white: hsl(0, 0%, 100%);
+}
+
+/* ## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
+
+/* ========================================> Global */
+body {
+    background-color: var(--neutral-background-dark-blue);
+}
+
+
+/* ========================================> Card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    width: 300px;
+    height: 500px;
+    background-color: var(--neutral-card-background-dark-blue);
+}
+
+.card-title {
+    color: var(--neutral-white);
+}
+
+.card-description, .card-creation-date {
+    color: var(--primary-soft-blue);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.card-price{
+    color: var(--primary-cyan);
+}
+
+.creation-info {
+    display: flex
+}
+
+.card-creation-date {
+    color: ;
+}
+        </article>
+        <span class="line"></span>
+        <article>
+          <img src="" alt="">
+          <p class="author">Creation of Jules Wyvern</p>
+        </article>
+      </section>
+
+
+
+
+
+
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
