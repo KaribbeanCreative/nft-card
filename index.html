@@ -11,29 +11,45 @@
   </head>
 
   <body>
-    <main class="container">
+    <main class="component">
       <section class="product-card">
-        <img src="assets/images/image-equilibrium.jpg" alt="NFT Picture" class="nft-picture">
-        <h1 class="card-title">Equilibrium #3429</h1>
-        <p class="card-description">Our Equilibrium collection promotes balance and calm.</p>
-        <article class="flex-container">
-          <p class="card-price">0.041 ETH</p>
-          <div class="card-creation-date">
-            <img src="assets/images/icon-clock.svg" alt="Clock icon">
-            <p class="creation-info">3 days left</p>
+        <picture>
+          <img src="assets/images/image-equilibrium.jpg" alt="NFT Picture" class="nft-picture"/>
+        </picture>
+
+        <article class="nft-description">
+          <h1 class="nft-title">Equilibrium #3429</h1>
+          <p class="nft-description">Our Equilibrium collection promotes balance and calm.</p>
+        </article>
+
+        <article class="nft-sales-statistics">
+          <p class="nft-price">
+            <img src="./assets/images/icon-ethereum.svg" alt="ethereum-logo" class="ethereum-logo">
+              0.041 ETH
+          </p>
+
+          <div class="nft-creation-date">
+            <p>
+              <img src="assets/images/icon-clock.svg" alt="Clock icon"  class="clock-logo">
+              3 days left
+            </p>
           </div>
         </article>
-        <span class="line"></span>
+
+        <hr/>
+
         <article>
-          <img src="" alt="">
-          <p class="author">Creation of Jules Wyvern</p>
+          <p class="nft-author">
+            <img src="./assets/images/image-avatar.png" alt="nft-author-avatar" class="nft-author-avatar">
+            Creation of <span class="highlight">Jules Wyvern</span>
+          </p>
         </article>
       </section>
     </main>
 
     <footer class="attribution">
       <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.</p>
+       Coded by <a href="https://github.com/karibbeanCreative" target="_blank">Dope Karibbean</a>.</p>
     </footer>
   </body>
 </html>
